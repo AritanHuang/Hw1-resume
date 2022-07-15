@@ -247,6 +247,11 @@ h2 span{
     color: #fff;
 }
 .footer .link-hover:hover{
-    color: #FF5151;
+    color: #CC5500;
     text-decoration: underline;
+}
+.img-link img:hover{
+   display: inline-block;
+   border:3px solid #CC5500;
+   border-radius: 10px;
 }
