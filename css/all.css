@@ -134,6 +134,7 @@ table {
 }
 body{
     font-family: SF Pro Text,-apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", Roboto, "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.5;
 }
 img{
     vertical-align: middle;
@@ -152,6 +153,12 @@ img{
 .border-left{
     border-left: 1px solid #96A9C4;
 }
+.inline-block{
+    display: inline-block;
+}
+.w-642{
+    width: 642px;
+}
 .mb-2{
     margin-bottom: 8px;
 }
@@ -163,6 +170,9 @@ img{
 }
 .mb-10{
     margin-bottom: 40px;
+}
+.mb-12{
+    margin-bottom: 48px;
 }
 .mb-16{
     margin-bottom: 64px;
@@ -179,6 +189,9 @@ img{
 .pt-6{
     padding-top: 24px;
 }
+/* .pb-6{
+    padding-bottom: 24px;
+} */
 .pb-10{
     padding-bottom: 40px;
 }
@@ -199,26 +212,20 @@ img{
 }
 .fz-5{
     font-size: 20px;
-    line-height: 1.5;
 }
-.text-style{
+.fz-6{
     font-size: 24px;
-    line-height: 36px;
 }
 .container h1{
     font-size: 80px;
     line-height: 95px;
     font-weight: 400;
-    padding-bottom: 24px;
     border-bottom: 2px solid #000;
-}
-.container .photo{
-    margin: 48px 0;
+    padding-bottom: 22px;
 }
 h2{
     font-size: 32px;
-    line-height: 48px;
-    padding-bottom: 8px;
+    padding-bottom: 7px;
     margin-bottom: 16px;
     font-weight: 500;
     border-bottom: 1px solid #000;
@@ -226,12 +233,8 @@ h2{
 h2 span{
     color: #a0040a;
     font-size: 24px;
-    line-height: 36px;
     font-weight: 600;
     padding-left: 16px;
-}
-.profile{
-    margin-bottom: 70px;
 }
 .skills-container{
     width: 996px;
@@ -242,7 +245,11 @@ h2 span{
     margin: 0 auto;
     text-align: left;
 }
-.footer .link{
-    display: flex;
-    justify-content: center;
+.footer .link-hover{
+    text-decoration: none;
+    color: #fff;
+}
+.footer .link-hover:hover{
+    color: #FF5151;
+    text-decoration: underline;
 }
