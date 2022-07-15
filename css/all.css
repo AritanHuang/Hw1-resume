@@ -156,8 +156,8 @@ img{
 .inline-block{
     display: inline-block;
 }
-.w-642{
-    width: 642px;
+.w-654{
+    width: 654px;
 }
 .mb-2{
     margin-bottom: 8px;
@@ -183,8 +183,14 @@ img{
 .ml-6{
     margin-left: 24px;
 }
-.pl-6{
+/* .pl-6{
     padding-left: 24px;
+} */
+.skills-pl{
+    padding-left: 22px;
+}
+.experience-pl{
+    padding-left: 23px;
 }
 .pt-6{
     padding-top: 24px;
