@@ -252,6 +252,9 @@ h2 span{
     color: #CC5500;
     text-decoration: underline;
 }
+.img-link img{
+    border:3px solid transparent;
+}
 .img-link img:hover{
    display: inline-block;
    border:3px solid #CC5500;
